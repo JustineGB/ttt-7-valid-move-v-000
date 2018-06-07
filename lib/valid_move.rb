@@ -3,7 +3,7 @@ if  taken = false
 elsif index.between?(0, 8)
   valid = true
 else
-  taken = true 
+  taken = true
   valid = false
 end
 end
