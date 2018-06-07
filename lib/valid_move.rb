@@ -4,8 +4,7 @@ if index.between?(0, 8)
   valid = true
 elsif valid = false
 else position_taken?
-  taken = true
-  valid = false || nil 
+  valid = false 
 end
 end
 
