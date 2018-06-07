@@ -2,8 +2,10 @@
 def valid_move?(board, index)
 if index.between?(0, 8)
   valid = true
-else
-  valid = false 
+elsif valid = false
+else position_taken?
+  taken = true
+  valid = false || nil 
 end
 end
 
